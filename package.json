@@ -1,0 +1,25 @@
+{
+  "name": "mds-demo",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "api": "node --watch backend/server.js",
+    "api:install": "npm --prefix backend install",
+    "db:setup": "python sql/run_oracle.py",
+    "db:reset": "python sql/run_oracle.py --drop",
+    "start": "concurrently -n api,web -c blue,magenta \"npm:api\" \"npm:dev\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.1"
+  }
+}

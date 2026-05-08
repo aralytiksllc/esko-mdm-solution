@@ -1,0 +1,13 @@
+Config Key,Config Value,Category,Description,Effective Date,Active
+FCP_CALC_METHOD,STANDARD,FCP,Calculation method for FCP reporting,2024-01-01,Yes
+SALES_ORG_RULE,PURPOSE_CODE,Sales,Determines sales org by purpose code,2024-01-01,Yes
+FX_FREEZE_MONTH,12,Finance,Month when FX rates are frozen for constant-currency,2024-01-01,Yes
+ENTITY_MAP_VER,3.2,Entity,Current entity mapping version,2024-06-01,Yes
+SAAS_FEE_CATEGORY,SUBSCRIPTION,FCP,Fee category code for SaaS products,2024-01-01,Yes
+APPROVAL_THRESHOLD_FX,5,Finance,Percentage change requiring Finance sign-off on FX rates,2024-01-01,Yes
+PC_DIST_TARGET,SALESFORCE,Sales,Primary downstream target for purpose code distribution,2024-01-01,Yes
+HIER_VALIDITY_CHECK,STRICT,Hierarchy,Enforce valid-from before valid-until on all hierarchy nodes,2024-01-01,Yes
+BRONZE_BATCH_SIZE,1000,Lakehouse,Max rows per Delta write batch to Lakehouse Bronze,2024-01-01,Yes
+SCD_TYPE_ENTITY,2,Lakehouse,SCD type applied to entity reference data in Silver layer,2024-01-01,Yes
+FCP_EXCL_COUNTRIES,CN;RU,FCP,Comma-separated country codes excluded from FCP calculation,2024-06-01,Yes
+AUDIT_RETENTION_DAYS,90,Governance,Number of days to retain Delta time-travel history,2024-01-01,Yes

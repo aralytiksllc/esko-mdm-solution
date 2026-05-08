@@ -1,0 +1,14 @@
+Purpose Code,Description,Major Group,Minor Group,SaaS Flag,Status
+PC-001,Software License,Software,Licenses,Yes,Active
+PC-002,Hardware Equipment,Hardware,Equipment,No,Active
+PC-003,Consulting Services,Services,Consulting,No,Active
+PC-004,Cloud Subscription,Software,Cloud,Yes,Active
+PC-005,Training & Support,Services,Training,No,Active
+PC-006,Maintenance Contract,Services,Maintenance,No,Active
+PC-007,Data Analytics Platform,Software,Analytics,Yes,Active
+PC-008,Network Infrastructure,Hardware,Network,No,Active
+PC-009,Professional Services,Services,Implementation,No,Active
+PC-010,SaaS Add-on Module,Software,Modules,Yes,Active
+PC-011,On-Premise License,Software,Licenses,No,Active
+PC-012,Managed Services,Services,Managed,No,Active
+PC-013,Managed Services2,Services,Managed,No,Active
